@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/BerndHagen/Minecraft-Server-Plugins/raw/main/img/img_v1.0.1-mcplugin.png" alt="Super Enchantments" width="128" />
+  <img src="images/plugin-logo.png" alt="Super Enchantments" width="128" />
 </p>
 <h1 align="center">Super Enchantments</h1>
 <p align="center">
@@ -83,3 +83,4 @@ Super Enchantments is an open-source Minecraft plugin that extends the vanilla e
 ### **License**
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
