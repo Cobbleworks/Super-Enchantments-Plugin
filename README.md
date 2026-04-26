@@ -84,3 +84,26 @@ Super Enchantments is an open-source Minecraft plugin that extends the vanilla e
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
+
+## **Screenshots**
+
+The screenshots below demonstrate the core features of the Super Enchantments plugin, including custom enchantments, combat abilities, vanilla enchantment overrides, and administrative commands.
+
+<table>
+  <tr>
+    <th>Super Enchantments - Custom Enchantments</th>
+    <th>Super Enchantments - Custom Abilities</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-enchantments.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-enchantments.png" alt="Custom Enchantments" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-custom.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-custom.png" alt="Custom Abilities" width="450"></a></td>
+  </tr>
+  <tr>
+    <th>Super Enchantments - Combat Effects</th>
+    <th>Super Enchantments - Admin Commands</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-combat.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-combat.png" alt="Combat Effects" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-commands.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-commands.png" alt="Admin Commands" width="450"></a></td>
+  </tr>
+</table>
