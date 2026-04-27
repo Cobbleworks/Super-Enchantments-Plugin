@@ -162,18 +162,18 @@ The screenshots below demonstrate the core features of the Super Enchantments pl
 <table>
   <tr>
     <th>Super Enchantments - Custom Enchantments</th>
-    <th>Super Enchantments - Custom Abilities</th>
+    <th>Super Enchantments - Maximum Fortune</th>
   </tr>
   <tr>
     <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-enchantments.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-enchantments.png" alt="Custom Enchantments" width="450"></a></td>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-custom.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-custom.png" alt="Custom Abilities" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-fortune.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-fortune.png" alt="Maximum Fortune" width="450"></a></td>
   </tr>
   <tr>
-    <th>Super Enchantments - Combat Effects</th>
+    <th>Super Enchantments - Wolf Summoning</th>
     <th>Super Enchantments - Admin Commands</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-combat.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-combat.png" alt="Combat Effects" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-wolf-summoning.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-wolf-summoning.png" alt="Wolf Summoning" width="450"></a></td>
     <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-commands.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-commands.png" alt="Admin Commands" width="450"></a></td>
   </tr>
 </table>
