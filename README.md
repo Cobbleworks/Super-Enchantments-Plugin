@@ -157,15 +157,15 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## **Screenshots**
 
-The screenshots below demonstrate the core features of the Super Enchantments plugin, including custom enchantments, combat abilities, vanilla enchantment overrides, and administrative commands.
+The screenshots below demonstrate the core features of the Super Enchantments plugin, including a level 255 Unbreaking enchantment and the wolf summoning combat ability.
 
 <table>
   <tr>
-    <th>Super Enchantments - Combat Abilities</th>
+    <th>Super Enchantments - Level 255 Unbreaking</th>
     <th>Super Enchantments - Wolf Summoning</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-combat.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-combat.png" alt="Combat Abilities" width="450"></a></td>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-wolf-summoning.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-wolf-summoning.png" alt="Wolf Summoning" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-enchantment-255.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-enchantment-255.png" alt="Level 255 Unbreaking" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-wolf-summon.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-wolf-summon.png" alt="Wolf Summoning" width="450"></a></td>
   </tr>
 </table>
