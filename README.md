@@ -7,7 +7,7 @@
   <b>Levels 1--255 for all vanilla enchantments, plus nine unique custom enchantments.</b>
 </p>
 <p align="center">
-  <a href="https://github.com/Cobbleworks/Super-Enchantments/releases"><img src="https://img.shields.io/github/v/release/Cobbleworks/Super-Enchantments?include_prereleases&style=flat-square&color=4CAF50" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/Cobbleworks/Super-Enchantments/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Java-17+-orange?style=flat-square" alt="Java Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Minecraft-1.21+-green?style=flat-square" alt="Minecraft Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Spigot%2FPaper-yellow?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">
+  <a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/releases"><img src="https://img.shields.io/github/v/release/Cobbleworks/Super-Enchantments?include_prereleases&style=flat-square&color=4CAF50" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Java-17+-orange?style=flat-square" alt="Java Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Minecraft-1.21+-green?style=flat-square" alt="Minecraft Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Spigot%2FPaper-yellow?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">
 </p>
 
 Super Enchantments is an open-source Minecraft plugin that extends the vanilla enchanting system by allowing all standard enchantments to be applied at levels from 1 to 255, far beyond their normal caps. In addition, the plugin introduces nine unique custom enchantments with special abilities, visual effects, and configurable cooldowns -- ranging from combat enchantments that fire arrow storms or strike with lightning to utility enchantments that teleport the player forward or summon wolves. All enchantments are applied using a simple command, with context-aware tab completion that suggests only valid enchantments for the item currently held.
@@ -53,7 +53,7 @@ Super Enchantments is an open-source Minecraft plugin that extends the vanilla e
 
 ### **Installation**
 
-1. Download the latest `.jar` from the [Releases](https://github.com/Cobbleworks/Super-Enchantments/releases) page
+1. Download the latest `.jar` from the [Releases](https://github.com/Cobbleworks/Super-Enchantments-Plugin/releases) page
 2. Stop your Minecraft server
 3. Copy the `.jar` into your server's `plugins/` folder
 4. Start your server -- a default configuration folder is generated at `plugins/SuperEnchantments/`
@@ -165,23 +165,23 @@ The screenshots below demonstrate Super Enchantments Plugin in action, showcasin
     <th>Super Enchantments - Max Fortune Pickaxe</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-enchantment-255.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-enchantment-255.png" alt="Level 255 Unbreaking enchantment" width="450"></a></td>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-fortune-max.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-fortune-max.png" alt="Max Fortune pickaxe" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-enchantment-255.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-enchantment-255.png" alt="Level 255 Unbreaking enchantment" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-fortune-max.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-fortune-max.png" alt="Max Fortune pickaxe" width="450"></a></td>
   </tr>
   <tr>
     <th>Super Enchantments - Wolf Summoning</th>
     <th>Super Enchantments - Blazing Shot Level 1</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-wolf-summon.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-wolf-summon.png" alt="Wolf summoning ability" width="450"></a></td>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-blazing-shot.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-blazing-shot.png" alt="Blazing Shot level 1 in jungle" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-wolf-summon.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-wolf-summon.png" alt="Wolf summoning ability" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-blazing-shot.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-blazing-shot.png" alt="Blazing Shot level 1 in jungle" width="450"></a></td>
   </tr>
   <tr>
     <th>Super Enchantments - Frostbite Hit</th>
     <th>Super Enchantments - Arrow Storm Faint</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-frostbite-hit.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-frostbite-hit.png" alt="Enemy hit by Frostbite enchantment" width="450"></a></td>
-    <td><a href="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-arrow-storm-faint.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments/raw/main/images/screenshot-arrow-storm-faint.png" alt="Arrow Storm causing enemy to faint and drop loot" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-frostbite-hit.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-frostbite-hit.png" alt="Enemy hit by Frostbite enchantment" width="450"></a></td>
+    <td><a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-arrow-storm-faint.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Cobbleworks/Super-Enchantments-Plugin/raw/main/images/screenshot-arrow-storm-faint.png" alt="Arrow Storm causing enemy to faint and drop loot" width="450"></a></td>
   </tr>
 </table>
