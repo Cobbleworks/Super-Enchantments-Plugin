@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/plugin-logo.png" alt="Super Enchantments Plugin" width="180" />
+  <img src="images/plugin-logo.png" alt="Super Enchantments Plugin" width="200" height="200" />
 </p>
 <h1 align="center">Super Enchantments Plugin</h1>
 <p align="center">
@@ -7,7 +7,7 @@
   <b>Levels 1-255 for all vanilla enchantments, plus nine unique custom enchantments.</b>
 </p>
 <p align="center">
-  <a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/releases"><img src="https://img.shields.io/github/v/release/Cobbleworks/Super-Enchantments-Plugin?include_prereleases&style=flat-square&color=4CAF50" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Java-17+-orange?style=flat-square" alt="Java Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Minecraft-1.13+-green?style=flat-square" alt="Minecraft Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Spigot%2FPaper-yellow?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/issues"><img src="https://img.shields.io/github/issues/Cobbleworks/Super-Enchantments-Plugin?style=flat-square&color=orange" alt="Open Issues"></a>
+  <a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/releases"><img src="https://img.shields.io/github/v/release/Cobbleworks/Super-Enchantments-Plugin?include_prereleases&style=flat-square&color=4CAF50" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Java-21+-orange?style=flat-square" alt="Java Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Minecraft-1.20.4+-green?style=flat-square" alt="Minecraft Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Spigot%2FPaper-yellow?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/issues"><img src="https://img.shields.io/github/issues/Cobbleworks/Super-Enchantments-Plugin?style=flat-square&color=orange" alt="Open Issues"></a>
 </p>
 
 Super Enchantments is an open-source Minecraft plugin that extends the vanilla enchanting system by allowing all standard enchantments to be applied at levels from 1 to 255, far beyond their normal caps. In addition, the plugin introduces nine unique custom enchantments with special abilities, visual effects, and configurable cooldowns - ranging from combat enchantments that fire arrow storms or strike with lightning to utility enchantments that teleport the player forward or summon wolves. All enchantments are applied using a simple command, with context-aware tab completion that suggests only valid enchantments for the item currently held.
@@ -25,8 +25,8 @@ Super Enchantments is an open-source Minecraft plugin that extends the vanilla e
 ### **Supported Platforms**
 
 - **Server Software:** `Spigot`, `Paper`, `Purpur`, `CraftBukkit`
-- **Minecraft Versions:** `1.13` and higher
-- **Java Requirements:** `Java 17+`
+- **Minecraft Versions:** `1.20.4` and higher
+- **Java Requirements:** `Java 21+`
 - **Dependencies:** None - fully self-contained, no external plugins required
 
 ## **Table of Contents**
@@ -36,17 +36,18 @@ Super Enchantments is an open-source Minecraft plugin that extends the vanilla e
     - [Installation Steps](#installation-steps)
     - [First Launch & Configuration](#first-launch--configuration)
     - [Verifying Installation](#verifying-installation)
-2. [Configuration](#configuration)
+2. [Third-Party Plugins](#third-party-plugins)
+3. [Configuration](#configuration)
     - [config.yml Reference](#configyml-reference)
-3. [How It Works](#how-it-works)
+4. [How It Works](#how-it-works)
     - [Vanilla Enchantments](#vanilla-enchantments)
     - [Custom Enchantments](#custom-enchantments)
-4. [Custom Enchantments](#custom-enchantments-1)
-5. [Player Commands](#player-commands)
-6. [Permissions](#permissions)
-7. [Building from Source](#building-from-source)
-8. [License](#license)
-9. [Screenshots](#screenshots)
+5. [Custom Enchantments](#custom-enchantments-1)
+6. [Player Commands](#player-commands)
+7. [Permissions](#permissions)
+8. [Building from Source](#building-from-source)
+9. [License](#license)
+10. [Screenshots](#screenshots)
 
 ## **Getting Started**
 
@@ -55,8 +56,8 @@ Super Enchantments is an open-source Minecraft plugin that extends the vanilla e
 Before installing Super Enchantments, confirm the following requirements are met:
 
 - A Minecraft server running **Spigot**, **Paper**, **Purpur**, or any compatible fork
-- Server version **1.13 or higher** (`api-version: 1.13` is the minimum)
-- **Java 17** or newer installed on the machine running the server
+- Server version **1.20.4 or higher** (the current build targets the Spigot 1.20.4 API)
+- **Java 21** or newer installed on the machine running the server
 - Operator or console access to install plugin files
 
 No additional plugins or libraries are needed. Super Enchantments has zero external dependencies.
@@ -86,6 +87,10 @@ All enchantments are available immediately after installation. No additional con
 - Hold a sword and run `/enchantlist` - a list of applicable enchantments should appear
 - Run `/superenchant sharpness 100` while holding a sword - Sharpness 100 should be applied
 - If the plugin fails to load, check the server console for `SuperEnchantments` error messages (common causes: wrong Java version, corrupt JAR, or unsupported API version)
+
+## **Third-Party Plugins**
+
+None. Super Enchantments is self-contained and uses only the server API.
 
 ## **Configuration**
 
@@ -206,7 +211,7 @@ Custom enchantments are stored in item persistent data under a namespaced key. T
 Super Enchantments uses **Apache Maven** as its build system. The plugin is packaged as a standard JAR with no external runtime dependencies.
 
 **Requirements:**
-- Java 17 or newer
+- Java 21 or newer
 - Apache Maven 3.6 or newer
 
 **Steps:**
