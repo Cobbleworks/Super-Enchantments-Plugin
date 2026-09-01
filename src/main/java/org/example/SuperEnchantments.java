@@ -8,6 +8,9 @@ import org.example.listeners.CustomEnchantmentListener;
 import org.example.util.CustomEnchantmentManager;
 import org.example.util.EnchantmentManager;
 
+/**
+ * Registers high-level and custom enchantment commands and combat listeners.
+ */
 public class SuperEnchantments extends JavaPlugin {
 
     private EnchantmentManager enchantmentManager;

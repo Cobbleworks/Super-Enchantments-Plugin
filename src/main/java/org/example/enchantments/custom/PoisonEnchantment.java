@@ -15,8 +15,13 @@ import org.example.enchantments.CustomEnchantment;
 
 import java.util.Random;
 
+/**
+ * Applies a configurable poison effect and feedback when a valid melee hit procs.
+ */
 public class PoisonEnchantment extends CustomEnchantment {
 
+    private static final Particle PROC_PARTICLE = resolveParticle(
+            "HAPPY_VILLAGER", "VILLAGER_HAPPY");
     private final Random random = new Random();
     private final SuperEnchantments plugin;
 
@@ -57,7 +62,8 @@ public class PoisonEnchantment extends CustomEnchantment {
             target.addPotionEffect(new PotionEffect(poison, duration, intensity));
         }
 
-        target.getWorld().spawnParticle(Particle.VILLAGER_HAPPY, target.getLocation().add(0, 1, 0), 10, 0.5, 0.5, 0.5, 0.1);
+        target.getWorld().spawnParticle(PROC_PARTICLE, target.getLocation().add(0, 1, 0),
+                10, 0.5, 0.5, 0.5, 0.1);
         target.getWorld().playSound(target.getLocation(), Sound.ENTITY_SPIDER_AMBIENT, 1.0f, 1.5f);
     }
 
@@ -74,6 +80,14 @@ public class PoisonEnchantment extends CustomEnchantment {
             return (PotionEffectType) PotionEffectType.class.getField(name).get(null);
         } catch (Exception e) {
             return null;
+        }
+    }
+
+    private static Particle resolveParticle(String currentName, String legacyName) {
+        try {
+            return Particle.valueOf(currentName);
+        } catch (IllegalArgumentException ignored) {
+            return Particle.valueOf(legacyName);
         }
     }
 }

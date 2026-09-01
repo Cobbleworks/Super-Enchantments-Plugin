@@ -1,7 +1,9 @@
 name: SuperEnchantments
-version: 1.0.2
+version: ${project.version}
 main: org.example.SuperEnchantments
 api-version: 1.13
+author: Cobbleworks
+website: https://github.com/Cobbleworks/Super-Enchantments-Plugin
 commands:
   superenchant:
     description: Add enchantments above normal maximum and custom enchantments

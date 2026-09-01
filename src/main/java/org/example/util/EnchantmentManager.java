@@ -9,6 +9,9 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Applies vanilla enchantments beyond the normal anvil and command level limits.
+ */
 public class EnchantmentManager {
 
     private final Map<String, Enchantment> enchantmentMap;

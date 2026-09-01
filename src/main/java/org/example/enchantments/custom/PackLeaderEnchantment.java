@@ -22,8 +22,12 @@ import java.util.Map;
 import java.util.Random;
 import java.util.UUID;
 
+/**
+ * Summons and coordinates player-owned wolves when the pack-leader item is used.
+ */
 public class PackLeaderEnchantment extends CustomEnchantment {
 
+    private static final Sound PACK_HOWL = resolveSound("ENTITY_WOLF_HOWL", "ENTITY_WOLF_AMBIENT");
     private final SuperEnchantments plugin;
     private final Random random = new Random();
     private static final Map<UUID, Long> lastUsed = new HashMap<>();
@@ -123,7 +127,7 @@ public class PackLeaderEnchantment extends CustomEnchantment {
             }.runTaskTimer(plugin, 0L, 1L);
         }
 
-        player.getWorld().playSound(player.getLocation(), Sound.ENTITY_WOLF_HOWL, 1.0f, 1.0f);
+        player.getWorld().playSound(player.getLocation(), PACK_HOWL, 1.0f, 1.0f);
         player.getWorld().spawnParticle(Particle.CLOUD, player.getLocation().add(0, 1, 0), 20);
     }
 
@@ -169,6 +173,14 @@ public class PackLeaderEnchantment extends CustomEnchantment {
             return (PotionEffectType) PotionEffectType.class.getField(name).get(null);
         } catch (Exception e) {
             return null;
+        }
+    }
+
+    private static Sound resolveSound(String preferredName, String fallbackName) {
+        try {
+            return Sound.valueOf(preferredName);
+        } catch (IllegalArgumentException ignored) {
+            return Sound.valueOf(fallbackName);
         }
     }
 }

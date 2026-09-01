@@ -15,6 +15,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Registers custom enchantment definitions and reads or writes their item state.
+ */
 public class CustomEnchantmentManager {
 
     private final SuperEnchantments plugin;

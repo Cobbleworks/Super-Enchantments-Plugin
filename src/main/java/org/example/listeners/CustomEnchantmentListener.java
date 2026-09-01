@@ -15,6 +15,9 @@ import org.example.util.CustomEnchantmentManager;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * Dispatches Bukkit combat and movement events to equipped custom enchantments.
+ */
 public class CustomEnchantmentListener implements Listener {
 
     private final SuperEnchantments plugin;
