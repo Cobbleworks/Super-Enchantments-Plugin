@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="images/plugin-logo.png" alt="Super Enchantments Plugin" width="200" height="200" />
+  <img src="images/plugin-banner.png" alt="Cobbleworks - Super Enchantments Plugin banner" width="818" />
 </p>
-<h1 align="center">Super Enchantments Plugin</h1>
+<h1 align="center">Cobbleworks - Super Enchantments Plugin</h1>
 <p align="center">
-  <b>Extend Minecraft enchanting far beyond vanilla limits.</b><br>
-  <b>Levels 1-255 for all vanilla enchantments, plus nine unique custom enchantments.</b>
+  <b>Apply vanilla enchantments beyond their normal limits and add new combat and utility abilities.</b><br>
+  <b>Control eligibility, strength, cooldowns, effects, and custom-enchantment behavior from one plugin.</b>
 </p>
 <p align="center">
   <a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/releases"><img src="https://img.shields.io/github/v/release/Cobbleworks/Super-Enchantments-Plugin?include_prereleases&style=flat-square&color=4CAF50" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Java-21+-orange?style=flat-square" alt="Java Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Minecraft-1.20.4+-green?style=flat-square" alt="Minecraft Version">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Spigot%2FPaper-yellow?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/Cobbleworks/Super-Enchantments-Plugin/issues"><img src="https://img.shields.io/github/issues/Cobbleworks/Super-Enchantments-Plugin?style=flat-square&color=orange" alt="Open Issues"></a>
@@ -12,7 +12,7 @@
 
 Super Enchantments is an open-source Minecraft plugin that extends the vanilla enchanting system by allowing all standard enchantments to be applied at levels from 1 to 255, far beyond their normal caps. In addition, the plugin introduces nine unique custom enchantments with special abilities, visual effects, and configurable cooldowns - ranging from combat enchantments that fire arrow storms or strike with lightning to utility enchantments that teleport the player forward or summon wolves. All enchantments are applied using a simple command, with context-aware tab completion that suggests only valid enchantments for the item currently held.
 
-### **Core Features**
+## **Core Features**
 
 - **Enhanced Vanilla Enchanting:** Apply vanilla enchantments at levels 1..255 (unsafe application enabled)
 - **Nine Custom Enchantments:** Custom combat/utility enchantments with trigger events, particles, sounds, and per-player cooldown behavior
@@ -22,7 +22,7 @@ Super Enchantments is an open-source Minecraft plugin that extends the vanilla e
 - **Persistent Storage:** Custom enchantments are stored using Minecraft's persistent data container system for reliable cross-restart persistence
 - **Visual Feedback:** Particle effects, sounds, and visual indicators play when custom enchantments activate
 
-### **Supported Platforms**
+## **Supported Platforms**
 
 - **Server Software:** `Spigot`, `Paper`, `Purpur`, `CraftBukkit`
 - **Minecraft Versions:** `1.20.4` and higher
@@ -31,23 +31,25 @@ Super Enchantments is an open-source Minecraft plugin that extends the vanilla e
 
 ## **Table of Contents**
 
-1. [Getting Started](#getting-started)
+1. [Core Features](#core-features)
+2. [Supported Platforms](#supported-platforms)
+3. [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation Steps](#installation-steps)
     - [First Launch & Configuration](#first-launch--configuration)
     - [Verifying Installation](#verifying-installation)
-2. [Third-Party Plugins](#third-party-plugins)
-3. [Configuration](#configuration)
+4. [Third-Party Plugins](#third-party-plugins)
+5. [Configuration](#configuration)
     - [config.yml Reference](#configyml-reference)
-4. [How It Works](#how-it-works)
+6. [How It Works](#how-it-works)
     - [Vanilla Enchantments](#vanilla-enchantments)
     - [Custom Enchantments](#custom-enchantments)
-5. [Custom Enchantments](#custom-enchantments-1)
-6. [Player Commands](#player-commands)
-7. [Permissions](#permissions)
-8. [Building from Source](#building-from-source)
-9. [License](#license)
-10. [Screenshots](#screenshots)
+7. [Custom Enchantments](#custom-enchantments-1)
+8. [Player Commands](#player-commands)
+9. [Permissions](#permissions)
+10. [Building from Source](#building-from-source)
+11. [License](#license)
+12. [Screenshots](#screenshots)
 
 ## **Getting Started**
 
